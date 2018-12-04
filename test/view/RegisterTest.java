@@ -24,7 +24,7 @@ public class RegisterTest {
 			// hint: zoek een werkende test op van web 2 ...
 		System.setProperty("webdriver.chrome.driver", "/Applications/chromedriver");
 		driver = new ChromeDriver();
-		driver.get(path+"?action=signUp");
+		driver.get(path+"?command=signUp");
 	}
 	
 	@After
@@ -171,7 +171,7 @@ public class RegisterTest {
 		String useridRandom = generateRandomUseridInOrderToRunTestMoreThanOnce("pierke");
 		submitForm(useridRandom, "Pieter", "Pieters", "pieter.pieters@hotmail.com", "1234");
 		
-		driver.get(path+"?action=signUp");
+		driver.get(path+"?command=signUp");
 
 		submitForm(useridRandom, "Pieter", "Pieters", "pieter.pieters@hotmail.com", "1234");
 		
