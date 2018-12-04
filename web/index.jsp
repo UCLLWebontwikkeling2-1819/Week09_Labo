@@ -17,8 +17,8 @@
 			<nav>
 				<ul>
 					<li id="actual"><a href="Controller">Home</a></li>
-					<li><a href="Controller?action=overview">Overview</a></li>
-					<li><a href="Controller?action=signUp">Sign up</a></li>
+					<li><a href="Controller?command=overview">Overview</a></li>
+					<li><a href="Controller?command=signUp">Sign up</a></li>
 				</ul>
 			</nav>
 			<h2>Home</h2>

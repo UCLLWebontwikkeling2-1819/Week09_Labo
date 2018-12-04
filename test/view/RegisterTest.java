@@ -38,9 +38,7 @@ public class RegisterTest {
 		submitForm(useridRandom, "Jan", "Janssens", "jan.janssens@hotmail.com" , "1234");
 		
 		String title = driver.getTitle();
-		assertEquals("Overview",title);
-		
-		driver.get(path+"?action=overview");
+		assertEquals("Users",title);
 		
 		ArrayList<WebElement> listItems=(ArrayList<WebElement>) driver.findElements(By.cssSelector("table tr"));
 		boolean found=false;

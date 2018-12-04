@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta charset="UTF-8">
-<title>Overview</title>
+<title>Users</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -13,8 +13,8 @@
 <nav>
 <ul>
 <li><a href="Controller">Home</a></li>
-<li id="actual"><a href="Controller?action=overview">Overview</a></li>
-<li><a href="Controller?action=signUp">Sign up</a></li>
+<li id="actual"><a href="Controller?command=overview">Overview</a></li>
+<li><a href="Controller?command=signUp">Sign up</a></li>
 </ul>
 </nav>
 <h2>
